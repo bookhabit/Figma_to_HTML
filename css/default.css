@@ -248,3 +248,68 @@ header img{
 .cart_price li:last-child p {
     color: #7E57C2;
 }
+
+
+/* -------------SHOP------------- */
+.top_product{
+    position: relative;
+    padding: 25px 25px 0 0;
+}
+
+.top_product img{
+    width: 100%;
+}
+
+.top_product .info{
+    position: absolute;
+    bottom: -25px;
+    left: 50px;
+    right: 0;
+    background: #FFFFFF;
+    padding: 10px 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,.25)
+}
+
+.top_product .info .desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_product .info h2{
+    font-size: 18px;
+    line-height: 29px;
+    color: #757575;
+    margin-bottom: 5px;
+}
+
+.top_product .info .price, .rate{
+    font-size: 13px;
+    line-height: 21px;
+    color: #7E57C2;
+}
+
+.shop_products{
+    margin-top: 78px;
+    padding-left: 25px;
+}
+
+.product_list li{
+    width: 125px;
+}
+
+.product_list li img{
+    width: 100%;
+}
+
+.product_list li h3{
+    font-size: 15px;
+    line-height: 25px;
+    color: #757575;
+    margin-top: 15px;
+}
+.product_list li h4{
+    font-size: 13px;
+    line-height: 21px;
+    color: #7E57C2;
+    margin-top: 5px;
+}
