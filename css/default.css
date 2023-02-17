@@ -193,3 +193,58 @@ header img{
     line-height: 21px;
     color: #757575;
 }
+
+/* -------------CART------------- */
+.cart_list li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.cart_list_info{
+    flex: 1;
+    margin-left: 10px;
+}
+
+.cart_list li img{
+    width: 40px;
+}
+
+.cart_list_info h3{
+    font-size: 15px;
+    line-height: 20px;
+    color: #757575;
+}
+
+.cart_list_info p, .del_icon{
+    font-size: 10px;
+    line-height: 16px;
+    color: #757575;
+}
+
+.cart_price li{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 15px;
+    line-height: 25px;
+    color: #757575;
+    margin-bottom: 6px;
+}
+
+.cart_price p {
+    width: 88px;
+    text-align: right;
+}
+
+.cart_price li:last-child{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 62px;
+}
+
+.cart_price li:last-child p {
+    color: #7E57C2;
+}
