@@ -1,1 +1,24 @@
 @import url("reset.css");
+@import url("common.css");
+
+/* -------------INDEX------------- */
+
+.welcome{
+    height:100vh;
+    background:url(../images/welcome_bg.png) no-repeat center center/cover;
+    padding-top:134px;
+    box-sizing:border-box;
+}
+
+.welcome h1+p{
+    margin-top: 127px;
+    margin-bottom: 119px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 34px;
+}
+
+.sign_links a:first-child {
+    margin-bottom: 25px;
+}
