@@ -313,3 +313,73 @@ header img{
     color: #7E57C2;
     margin-top: 5px;
 }
+
+/* -------------DETAILS------------- */
+main h2{
+    font-size: 18px;
+    line-height: 29px;
+    color: #757575;
+}
+
+.details_pic_slides{
+    margin-top: 20px;
+}
+
+.details_pic_slides .slide{
+    width: 275px;
+}
+
+.details_pic_slides .slide img{
+    width: 100%;
+}
+
+.details_pic_slides .pager{
+    position: absolute;
+    right: 0;
+    display: flex;
+}
+
+.details_pic_slides .pager span{
+    width: 10px;
+    height: 10px;
+}
+
+.details_info{
+    margin-top: 20px;
+}
+
+.details_info h3{
+    font-size: 26px;
+    line-height: 26px;
+    color: #757575;
+}
+
+.details_info p{
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 21px;
+    color: #757575;
+}
+
+.details_info form{
+    margin-top: 20px;
+}
+
+.details_info form label{
+    display: none;
+}
+
+.details_info form select{
+    width: 100px;
+    height: 23px;
+    font-size: 10px;
+    line-height: 23px;
+    border: 1px solid #999999;
+    color: #757575;
+    margin-right: 23px;
+}
+
+.details_info form .btn{
+    display: block;
+    margin-top: 25px;
+}
