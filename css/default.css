@@ -140,27 +140,25 @@ header img{
     left: 0;
     right: 0;
     bottom: 15px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    z-index: 2;
 }
 
 .pager span{
     width: 13px;
     height: 13px;
-    border: 3px solid #7E57C2;
-    border-radius: 50%;
-    box-sizing: border-box;
-    display: inline-block;
+    border:3px solid #7E57C2;
+    box-sizing:border-box;
+    border-radius:50%;
     text-indent: -9999em;
     transition: 0.35s all;
-    margin: 0 5px;
+    margin:0 5px;
+    background:none !important;
+    opacity:1;
 }
-
-.pager span.active{
-    background: #7E57C2;
+.pager span.swiper-pagination-bullet-active{
+    background: #7E57C2 !important;
 }
-
-
 .category_list{
     display: flex;
     flex-wrap: wrap;
