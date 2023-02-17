@@ -96,3 +96,100 @@
 .sign_up form label{
     display: none;
 }
+
+/* -------------CATEGORIES------------- */
+header{
+    background: #7E57C2;
+    height: 50px;
+    position: relative;
+}
+
+header > h1{
+    color: #FFFFFF;
+    font-size: 17px;
+    line-height: 50px;
+    text-align: center;
+}
+
+header img{
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);    
+}
+
+.menu_icon_left{
+    left: 25px;
+}
+
+.menu_icon_right{
+    right: 25px;
+}
+
+
+.category_slide img{
+    width: 100%;
+}
+
+.category_slider_wrap{
+    position: relative;
+    overflow: hidden;
+}
+
+.category_slider_wrap .pager{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.pager span{
+    width: 13px;
+    height: 13px;
+    border: 3px solid #7E57C2;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-indent: -9999em;
+    transition: 0.35s all;
+    margin: 0 5px;
+}
+
+.pager span.active{
+    background: #7E57C2;
+}
+
+
+.category_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.category_list li{
+    width: 46%;
+    margin-right: 8%;
+    margin-bottom: 25px;
+}
+
+.category_list li:nth-child(2n){
+    margin-right: 0;
+}
+
+.category_list li img{
+    width: 100%;
+}
+
+.category_list li h3{
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: 15px;
+    color: #757575;
+}
+
+.category_list li h4{
+    font-size: 13px;
+    line-height: 21px;
+    color: #757575;
+}
